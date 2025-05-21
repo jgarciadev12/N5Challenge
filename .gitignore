@@ -1,0 +1,66 @@
+# --- .NET ---
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vsp
+*.pdb
+*.dbmdl
+*.log
+*.nupkg
+*.snupkg
+*.vs/
+.vscode/
+*.tsbuildinfo
+
+# Rider / JetBrains
+.idea/
+*.DotSettings.user
+
+# Build results
+build/
+out/
+publish/
+TestResults/
+*.coverage
+*.coveragexml
+
+# Local secrets and settings
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Entity Framework tools
+Migrations/
+
+# --- Node / React ---
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env.local
+frontend/.env.development
+frontend/.env.test
+frontend/.env.production
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Docker ---
+**/.dockerignore
+**/Dockerfile
+docker-compose.override.yml
+
+# --- System ---
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.swp
+*.swo
+*.~undo-tree*
+~$*
