@@ -52,7 +52,6 @@ yarn-error.log*
 
 # --- Docker ---
 **/.dockerignore
-**/Dockerfile
 docker-compose.override.yml
 
 # --- System ---
